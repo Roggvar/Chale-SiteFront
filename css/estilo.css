@@ -1,0 +1,300 @@
+/*Todo o site*/
+*
+{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Corpo do site*/
+body
+{
+
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    background: #FFF url(../imagens/bg.png);
+    margin: 15px;
+
+}
+
+/*Links*/
+a
+{
+
+    text-decoration: none;
+
+}
+
+/*Lista*/
+ul
+{
+
+    list-style: none;
+
+}
+
+ul#navegacao
+{
+
+    float: left;
+
+}
+
+ul#navegacao a
+{
+
+    text-transform: uppercase;
+    font-size-adjust: 0.8em;
+    padding: 5px;
+    color: #6E672C;
+    line-height: 30px;
+
+}
+ul#navegacao a:hover
+{
+
+    background: #FDF6BE;
+
+}
+
+h2
+{
+
+    color: #7D7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+
+}
+
+p
+{
+
+    font-size: 1em;
+    margin-bottom: 10px;
+
+}
+
+/*Container do site*/
+#container
+{
+
+    background: #EDE9CC url(../imagens/bg-container.png) top center repeat-y;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+
+}
+
+/*Area no topo do site, inclui: Menu e logo*/
+#topo
+{
+
+    background: #DBCD87;
+    height: 15.4em;
+    min-height: 250px;
+
+    position: relative;
+
+}
+
+/*Link com o logo do site e imagem*/
+#areaLogo
+{
+
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+
+    /*Coloca a area do logo na posiçao da esquerda no topo*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*Ordem de exibiçao da imagem (Layer)*/
+    z-index: 1;
+
+}
+
+/*Menu lateral do topo*/
+#areaMenu
+{
+
+    background: url(../imagens/topo-imagem-lateral.png);
+    width: 450px;
+    height: 250px;
+
+    /*Coloca o menu na posiçao da direita no topo*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*Ordem de exibiçao da imagem (Layer)*/
+    z-index: 2;
+
+}
+
+/*Contem o onteudo da menu lateral do topo*/
+#conteudoMenu
+{
+
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+
+}
+
+/*A parte do superio do menu lateral*/
+#menuLocais
+{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8B8448;
+    border-bottom: 1px solid #B5AB56;
+    border-top: 1px solid #B5AB56;
+
+}
+
+/*Area de texto dos locais*/
+#menuLocais .locais
+{
+
+    float: left;
+    line-height: 2.1em;
+
+}
+
+/*Botao (link) de reserva*/
+#menuLocais a.reservar
+{
+
+    text-transform: uppercase;
+    background: #A29750;
+    color: #FFF5B0;
+    padding: 5px 10px;
+    float: right;
+
+}
+
+#corpoMenu
+{
+
+    margin-top: 15px;
+
+}
+
+#areaPrincipal
+{
+
+    width: 50%;
+    padding: 15px 0px;
+    float: left;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+
+}
+
+#areaLateral
+{
+
+    width: 50%;
+    padding: 20px 0px;
+    float: right;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+
+}
+
+#rodape
+{
+
+    padding: 16px;
+    background: #FFF url(../imagens/bg-rodape.png) top repeat-x;
+    color: #7D7640;
+    clear: both;
+    
+}
+
+#beneficios li
+{
+
+    padding: 8px;
+    border-bottom: 1px solid #F3EFCB;
+    height: 6em;
+
+}
+
+#beneficios li:hover
+{
+
+    background: #F6F3D6;
+    cursor: pointer;
+
+}
+
+#beneficios li a img
+{
+
+    float: left;
+    margin-right: 8px;
+
+}
+
+#beneficios li a
+{
+
+    font-size: 0.8em;
+
+}
+
+#beneficios li a p
+{
+
+    color: #000;
+    font-size: 0.9em;
+
+}
+
+#beneficios li a h3
+{
+
+    font-size: 1em;
+    color: #615B2D;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+
+}
+
+/*Logo do site*/
+.logo a
+{
+
+    background: url(../imagens/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+
+    /*Ajuda nos leitores de tela e caso o css nao for carregado nao ficara um espaço em branco*/
+    text-indent: -9000px;
+
+    /*Coloca o logo na posiçao da esquerda no topo*/
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /*Ordem de exibiçao da imagem (Layer)*/
+    z-index: 3;
+
+}
+
+.depoimento
+{
+
+    width: 226px;
+    height: 164px;
+    float: right;
+
+}
+
+.conteudo
+{
+
+    margin: 0 auto;
+    width: 90%;
+
+}
