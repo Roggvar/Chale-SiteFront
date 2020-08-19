@@ -146,6 +146,8 @@ p
 {
 
     padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
     padding-bottom: 5px;
     font-size: 0.7em;
     color: #8B8448;
@@ -159,7 +161,16 @@ p
 {
 
     float: left;
+    margin-right: 15px;
+    color: #8B8448;
     line-height: 2.1em;
+
+}
+
+#menuLocais a.locais:hover
+{
+
+    text-decoration: underline;
 
 }
 
